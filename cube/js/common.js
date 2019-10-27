@@ -86,7 +86,7 @@ window.onload = function() {
 				}
 			})
 		}
-		showBtn(){ // показываем кнопки
+		showBtn(){  // показываем кнопки
 			this.wrapper.addEventListener('mouseover',(e) =>{
 				this.attrRowAndCol();
 				if(e.target.classList.contains('cube__add') || e.target.closest('.cube__add')){
