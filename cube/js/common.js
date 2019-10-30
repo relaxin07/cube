@@ -1,7 +1,6 @@
 class MyCube{
 	constructor(wrapper , countRows , countCols){
 		this.createCube(wrapper,countRows,countCols);
-		this.myThis = this;
 	}
 	createCube(wrapper ,countRows, countCols){ 	// Отрисовываем куб
 		this.wrapper = document.querySelector(wrapper);
