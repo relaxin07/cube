@@ -130,5 +130,6 @@ class MyCube{
 		},true);
 		this.createAttrInRowsAndCols();
 	}
+	
 }
 let cube = new MyCube('.cube' , 4, 4);
