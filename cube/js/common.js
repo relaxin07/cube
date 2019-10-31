@@ -22,7 +22,7 @@ class MyCube{
     this.createAttrInRowsAndCols();
     this.wrapper.addEventListener('mouseover', this.showBtn.bind(this));
     this.wrapper.addEventListener('mouseover', this.setAttrInBtnRemoveColsRow.bind(this));
-    this.btnAddRows.addEventListener('click', this.addRow.bind(this , this.createAttrInRowsAndCols.bind(this)));
+    this.btnAddRows.addEventListener('click', this.addRow.bind(this));
     this.btnAddCols.addEventListener('click', this.addCol.bind(this));
     this.btnRemoveCols.addEventListener('click', this.removeCols.bind(this));
     this.btnRemoveRows.addEventListener('click', this.removeRows.bind(this));
